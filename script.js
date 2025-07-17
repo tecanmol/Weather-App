@@ -57,7 +57,7 @@ form.addEventListener("submit", (e)=>{
   const city = input.value.trim();
     if (!city) return;
 
-    const apiKey = "0ea267ac45b2740578cdc1367227ca27";
+    const apiKey = "**************************";
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
     fetch(url)
     .then(response => {
