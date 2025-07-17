@@ -1,0 +1,27 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(to right, #a18cd1, #fbc2eb);
+    margin: 0;
+}
+
+.container{
+    align-items: center;
+}
+
+#WeatherInfo{
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 160px;
+        padding: 10px;
+        margin: 10px;
+        border: 2px solid #180a6b;
+        display: none;
+        border-radius: 10px;
+}
